@@ -14,7 +14,7 @@ public class Shape : MonoBehaviour // INHERITANCE primary
       {
          if (value < 0.0f)
          {
-            Debug.LogError("You can't set a negative production speed!");
+            Debug.LogError("You can't set a speed!");
          }
          else
          {
