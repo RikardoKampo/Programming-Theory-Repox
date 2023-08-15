@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms;
 
-public class Shape : MonoBehaviour // INHERITANCE primary
+public class Shape : MonoBehaviour // INHERITANCE 
 {
    private float m_shapeSpeed = 1.5f; // ENCAPSULATION
    public float shapeSpeed // ENCAPSULATION
