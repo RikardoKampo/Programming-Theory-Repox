@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneM : MonoBehaviour
 {
-   public void GoToGame()
+   public void GoToGame() // ABSTRACTION
    {
       SceneManager.LoadScene(1);
    }

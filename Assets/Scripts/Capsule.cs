@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Capsule : Shape
+public class Capsule : Shape // INHERITANCE secondary
 {
    // Start is called before the first frame update
    void Start()
@@ -17,7 +17,7 @@ public class Capsule : Shape
       DestroyShapeDistance();
    }
 
-   public override void ColorShape()
+   public override void ColorShape() //POLYMORPHISM
    {
       float colorRange = Random.Range(0.1f, 1);
       Material material = Renderer.material;

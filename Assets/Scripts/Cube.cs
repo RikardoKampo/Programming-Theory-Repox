@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cube : Shape
+public class Cube : Shape // INHERITANCE secondary
 {
 
    void Update()
@@ -12,7 +12,7 @@ public class Cube : Shape
       DestroyShapeDistance();
    }
 
-   public override void ColorShape()
+   public override void ColorShape() // POLYMORPHISM
    {
       float colorRange = Random.Range(0.1f, 1);
       Material material = Renderer.material;

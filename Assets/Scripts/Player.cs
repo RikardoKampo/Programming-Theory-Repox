@@ -6,20 +6,14 @@ using UnityEngine.SocialPlatforms;
 public class Player : MonoBehaviour
 {
    [SerializeField] private float xRange = 5;
-   // Start is called before the first frame update
-   void Start()
-   {
-
-   }
-
-   // Update is called once per frame
+   
    void Update()
    {
       MovePlayer();
 
    }
 
-   private void MovePlayer()
+   private void MovePlayer() // ABSTRACTION
    {
       float speed = 1.0f;
       float horizontalInput = Input.GetAxis("Horizontal");

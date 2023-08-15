@@ -15,7 +15,7 @@ public class SpawnManager : MonoBehaviour
       InvokeRepeating("SpawnShape", startDelay, spawnInterval);
    }
 
-   void SpawnShape()
+   void SpawnShape() // ABSTRACTION
    {
       int animalIndex = Random.Range(0, shapePrefabs.Length);
       Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnPosZ), 1, spawnPosZ);
